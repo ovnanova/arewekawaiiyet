@@ -103,7 +103,7 @@ async function main() {
 
 main();
 
-const scheduleExpression = '0 * * * *';
+const scheduleExpression = '0 */4 * * *';
 
 const job = new CronJob(scheduleExpression, main);
 
