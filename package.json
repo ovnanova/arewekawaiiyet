@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@atproto/api": "^0.13.7",
+    "axios": "^1.7.7",
+    "child_process": "^1.0.2",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

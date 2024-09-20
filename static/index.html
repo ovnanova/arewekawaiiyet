@@ -1,0 +1,65 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kawaii Mode Status</title>
+
+    <!-- Include Inter Font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Internal CSS for Styling -->
+    <style>
+        /* Apply Inter font to the entire body */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            /* Horizontal centering */
+            align-items: center;
+            /* Vertical centering */
+            background-color: #f0f0f0;
+            /* Light background color */
+        }
+
+        /* Container for the content */
+        .container {
+            text-align: center;
+            /* Center text */
+            background-color: #ffffff;
+            /* White background for content */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Status Text Styling */
+        #status {
+            color: #333333;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        /* Logo Styling */
+        #logo {
+            margin-top: 20px;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="logo" src="logo.png" alt="Logo">
+        <h1>Are we kawaii yet?</h1>
+        <span id="status">NO</span>
+    </div>
+</body>
+
+</html>
