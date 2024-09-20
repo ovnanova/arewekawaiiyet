@@ -78,7 +78,7 @@ async function main() {
         if (hasLine) {
             await agent.login({ identifier: process.env.BLUESKY_USERNAME!, password: process.env.BLUESKY_PASSWORD! })
             await agent.post({
-                text: "bluesky is かわいい again we are so back"
+                text: "bluesky is かわいい again we are so back °˖✧◝٩( ᐛ )و◜✧˖°"
             });
             console.log("Posted YES")
 
@@ -90,7 +90,7 @@ async function main() {
         } else {
             await agent.login({ identifier: process.env.BLUESKY_USERNAME!, password: process.env.BLUESKY_PASSWORD! })
             await agent.post({
-                text: "no :("
+                text: "no ╥﹏╥"
             });
             console.log("Posted NO")
         }
