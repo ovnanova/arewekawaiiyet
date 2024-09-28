@@ -1,7 +1,10 @@
-# Are we kawaii yet?
+# UPDATE: Bluesky is かわいい again, we are so back
+**The bot is now offline. Thank you for your service buddy 🫡**
 
-This repo is for a bot that tracks the Bluesky web repository for the reimplementation of the 'Kawaii Mode' feature. 
+_Are we kawaii yet?_
 
-The bot posts to Bluesky every 4 hours regarding the status of the feature. 
+This repo was for a bot that tracked the Bluesky web repository for the reimplementation of the 'Kawaii Mode' feature. 
 
-Upon locating it, it will post an affirmative, update the local GitHub Pages website, and then shut off.
+The bot posted to Bluesky every 4 hours regarding the status of the feature. 
+
+Upon locating it, it posted an affirmative, updated the local GitHub Pages website, and then shut off.
